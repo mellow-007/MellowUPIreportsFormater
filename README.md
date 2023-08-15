@@ -52,7 +52,7 @@ pip install openpyxl tkinter win32com pywin32
 
 ### Using Executable (exe)
 
-1. Download the latest release from the [Releases](https://github.com/yourusername/MellowUPIreportsFormater/releases) section.
+1. Download the latest release from the [Releases](https://github.com/mellow-007/MellowUPIreportsFormater/releases) section.
 
 2. Double-click the `MellowUPIreportsFormater.exe` file.
 
