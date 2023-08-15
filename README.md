@@ -1,19 +1,22 @@
-
 # MellowUPIreportsFormater
 
-MellowUPIreportsFormater is a Python tool designed to simplify the formatting of UPI merchant transaction reports, specifically tailored for PhonePe UPI reports. It streamlines the process of validating and converting these reports into PDF format. The tool focuses on organizing data, ensuring accuracy, and facilitating efficient documentation printing.
+MellowUPIreportsFormater is a Python tool designed to simplify the formatting of UPI merchant transaction reports. It streamlines the process of validating and converting these reports into PDF format. The tool focuses on organizing data, ensuring accuracy, and facilitating efficient documentation printing.
 
 ## Features
 
-- Formats PhonePe UPI merchant transaction reports for validation.
+- Formats UPI merchant transaction reports for validation.
 - Converts formatted reports to PDF.
 - Organizes data to enhance clarity and accuracy.
 - Streamlines documentation printing process.
 - Supports various data manipulation and formatting tasks.
+- Allows users to choose either single or multiple CSV or ZIP files for processing.
 
 ## Compatibility
 
-Currently, MellowUPIreportsFormater is optimized for processing PhonePe UPI reports. If you're interested in using the tool for other UPI platforms, please let us know!
+Current Compatibility: PhonePe UPI Transaction Reports Only.
+
+MellowUPIreportsFormater is currently optimized for processing PhonePe UPI reports. If you're interested in using the tool for other UPI platforms, please let us know!
+
 
 ## Dependencies
 
@@ -45,7 +48,7 @@ pip install openpyxl tkinter win32com pywin32
    python main.py
    ```
 
-3. Follow the on-screen instructions to select the PhonePe UPI merchant transaction report, validate and format it, and generate a PDF.
+3. Follow the on-screen instructions to select either a single or multiple CSV or ZIP files containing UPI merchant transaction reports, to validate and format them, and generate PDFs.
 
 ### Using Executable (exe)
 
@@ -53,7 +56,7 @@ pip install openpyxl tkinter win32com pywin32
 
 2. Double-click the `MellowUPIreportsFormater.exe` file.
 
-3. Follow the on-screen instructions to select the PhonePe UPI merchant transaction report, validate and format it, and generate a PDF.
+3. Follow the on-screen instructions to select either a single or multiple CSV or ZIP files containing UPI merchant transaction reports, to validate and format them, and generate PDFs.
 
 ## Contributing
 
